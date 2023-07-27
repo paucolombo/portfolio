@@ -11,7 +11,6 @@ About();
 Footer();
 //creo los listeners para cargar las distintas secciones
 const main = document.querySelector('main');
-main.classList.add('mainAnimation');
 const about = document.getElementById('about');
 about.classList.add('activeSection');
 about.addEventListener('click', changeSection);
@@ -24,14 +23,18 @@ function changeSection(event) {
   about.classList.remove('activeSection');
   projects.classList.remove('activeSection');
   experience.classList.remove('activeSection');
-  if (event.target.id === 'about') {
-    About();
-    about.classList.add('activeSection');
-  } else if (event.target.id === 'projects') {
-    Projects();
-    projects.classList.add('activeSection');
-  } else if (event.target.id === 'experience') {
-    Experience();
-    experience.classList.add('activeSection');
+  switch (event.target.id) {
+    case 'about':
+      About();
+      about.classList.add('activeSection');
+      break;
+    case 'projects':
+      projects.classList.add('activeSection');
+      Projects();
+      break;
+    case 'experience':
+      experience.classList.add('activeSection');
+      Experience();
+      break;
   }
 }
