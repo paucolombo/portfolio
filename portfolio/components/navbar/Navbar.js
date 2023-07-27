@@ -12,12 +12,22 @@ const Navbar = () => {
       <input class="hamburguer" type="checkbox" id="menu">
       <label for="menu">☰</label>
       <ul>
-        <li><a href="#about" id="about">About Me</a></li>
-        <li><a href="#projects" id="projects">Projects</a></li>
-        <li><a href="#experience" id="experience">Experience</a></li>
+        <li><a href="#about" id="about" class="navItems">About Me</a></li>
+        <li><a href="#projects" id="projects" class="navItems">Projects</a></li>
+        <li><a href="#experience" id="experience" class="navItems">Experience</a></li>
       </ul>
     </nav>
   `;
   document.body.appendChild(header);
+  const navItems = document.querySelectorAll('.navItems');
+  //para cerrar el menu hamburguesa cuando se haga click en un elemento
+  navItems.forEach((item) => {
+    item.addEventListener('click', () => {
+      const menuCheckbox = document.getElementById('menu');
+      if (menuCheckbox.checked) {
+        menuCheckbox.checked = false;
+      }
+    });
+  });
 };
 export default Navbar;
