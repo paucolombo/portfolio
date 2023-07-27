@@ -5,7 +5,7 @@ const Projects = () => {
   const section = document.createElement('section');
   section.classList.add('projectsContainer');
   const h1 = document.createElement('h1');
-  h1.innerText = 'My Projects';
+  h1.innerText = 'MY PROJECTS';
   projects.forEach((project) => {
     section.innerHTML += `<div class="project">
     <a href=${project.link} target="_blank"><img src= ${project.img} alt= ${project.title}> 

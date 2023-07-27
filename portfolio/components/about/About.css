@@ -6,20 +6,17 @@
   align-items: center;
   flex-direction: column;
   justify-items: center;
+  animation: fadeInAnimation ease-in 1s;
 }
-.linksList {
-  width: 50vw;
-  margin-top: 2%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 7px;
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-.linksList li a:hover img {
-  transform: scale(1.1);
-  transition: transform 0.2s ease-in-out;
-  box-shadow: none;
-}
+
 .container {
   width: 100vw;
   display: flex;
@@ -41,7 +38,7 @@
 .skills li {
   color: #fffffe;
   border-radius: 5px;
-  background-color: var(--color-bg-button-hover);
+  background-color: var(--color-bg-secondary);
   padding: 4%;
   list-style: inside;
   list-style-image: url('/marca-de-verificacion.png');
@@ -58,7 +55,7 @@
   padding-right: 1%;
   padding-left: 1%;
 }
-/* Media Query para dispositivos con ancho menor a 768px (Tablet y móvil) */
+
 @media (max-width: 767px) {
   .skills {
     grid-template-columns: 1fr;

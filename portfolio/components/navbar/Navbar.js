@@ -12,9 +12,9 @@ const Navbar = () => {
       <input class="hamburguer" type="checkbox" id="menu">
       <label for="menu">☰</label>
       <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Experience</a></li>
+        <li><a href="#about" id="about">About Me</a></li>
+        <li><a href="#projects" id="projects">Projects</a></li>
+        <li><a href="#experience" id="experience">Experience</a></li>
       </ul>
     </nav>
   `;

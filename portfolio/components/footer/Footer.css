@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--color-bg-secondary);
+  padding: 1%;
+  gap: 2%;
+  bottom: 0;
+  left: 0;
+}
+.linksList {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.linklist img {
+  width: 50px;
+}
+.linksList li a:hover img {
+  filter: invert();
+  transition: filter 0.3s ease-in-out;
+}
+@media (max-width: 470px) {
+  footer {
+    margin-top: 10px;
+  }
+  footer h3 {
+    padding-top: 1%;
+    margin-bottom: 1%;
+  }
+}

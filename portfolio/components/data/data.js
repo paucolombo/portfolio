@@ -25,11 +25,14 @@ export const skills = [
   'HTML5',
   'CSS3',
   'Javascript',
-  'Photoshop',
+  'React',
   'Bootstrap',
   'Wordpress',
-  'React',
+  'Photoshop',
   'Illustrator',
+  'Github',
+  'SCRUM',
+  'Node JS',
   'English/Spanish',
 ];
 
@@ -76,5 +79,46 @@ export const projects = [
       'Web app that test the lenght of the password by changing the blur of the background ',
     tech: 'HTML5, CSS3, Javascript',
     link: 'https://pass-test.netlify.app/',
+  },
+];
+
+export const companies = [
+  {
+    name: 'PIBA',
+    image: '/piba.png',
+    link: 'https://piba.es/',
+    position: 'Web developer freelance',
+    dates: '2020 - 2023',
+  },
+  {
+    name: 'CUOMA',
+    image: '/cuoma.png',
+    link: 'https://www.cuoma.com/',
+    position: 'Maquetador Web',
+    dates: '2018-2020',
+  },
+
+  {
+    name: 'El Pixel',
+    image: '/elpixel.png',
+    link: 'https://www.elpixel.com/',
+    position: 'Maquetador Web',
+    dates: '2015-2017',
+  },
+
+  {
+    name: 'Cognizant',
+    image: '/cognizant.png',
+    link: 'https://www.cognizant.com/es/es',
+    position: 'Post Production Developer',
+    dates: '2013-2015',
+  },
+
+  {
+    name: 'E-Planning',
+    image: '/eplanning.png',
+    link: 'https://www.e-planning.net/',
+    position: 'Post Production Developer',
+    dates: '2011-2016',
   },
 ];
