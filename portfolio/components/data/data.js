@@ -52,6 +52,14 @@ export const projects = [
     link: 'https://frikigift-store.netlify.app/',
   },
   {
+    title: 'Pokedex Web App',
+    img: '/pokemon.jpg',
+    description:
+      'Using the PokeAPI, i desing and developed this Pokedex with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://pokedex-pau.netlify.app/',
+  },
+  {
     title: 'IngridPaul Web',
     img: '/ingridpaul.jpg',
     description: 'Web desing and development using Wordpress and Woocommerce.',
@@ -64,6 +72,14 @@ export const projects = [
     description: 'Desing and Development of the landing page FrikiGift',
     tech: 'HTML5, CSS3, Photoshop',
     link: 'https://frikigift.netlify.app/',
+  },
+  {
+    title: 'Rick and Morty Web App',
+    img: '/rick.jpg',
+    description:
+      'Using the Rick and Morty API, i desing and developed this SPA with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://rickandmorty-reactapi.netlify.app/',
   },
   {
     title: 'Color Flipper - WebApp',
