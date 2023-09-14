@@ -38,11 +38,28 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'Abilitycontrol Web',
-    img: '/ability.jpg',
-    description: 'UX Desing and Web development using Wordpress.',
-    tech: 'Wordpress, HTML5, CSS3, Photoshop',
-    link: 'https://abilitycontrol.com/',
+    title: 'Astronomic Project Web App',
+    img: '/nasa.jpg',
+    description:
+      'Using the NASA API, i desing and developed this web with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://astronomic-project.netlify.app/',
+  },
+  {
+    title: 'Pokedex Web App',
+    img: '/pokemon.jpg',
+    description:
+      'Using the PokeAPI, i desing and developed this Pokedex with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://pokedex-pau.netlify.app/',
+  },
+  {
+    title: 'Rick and Morty Web App',
+    img: '/rick.jpg',
+    description:
+      'Using the Rick and Morty API, i desing and developed this SPA with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://rickandmorty-reactapi.netlify.app/',
   },
   {
     title: 'FrikiGift Store',
@@ -52,12 +69,11 @@ export const projects = [
     link: 'https://frikigift-store.netlify.app/',
   },
   {
-    title: 'Pokedex Web App',
-    img: '/pokemon.jpg',
-    description:
-      'Using the PokeAPI, i desing and developed this Pokedex with React.',
-    tech: 'React, HTML5, CSS3, Javascript',
-    link: 'https://pokedex-pau.netlify.app/',
+    title: 'Abilitycontrol Web',
+    img: '/ability.jpg',
+    description: 'UX Desing and Web development using Wordpress.',
+    tech: 'Wordpress, HTML5, CSS3, Photoshop',
+    link: 'https://abilitycontrol.com/',
   },
   {
     title: 'IngridPaul Web',
@@ -72,14 +88,6 @@ export const projects = [
     description: 'Desing and Development of the landing page FrikiGift',
     tech: 'HTML5, CSS3, Photoshop',
     link: 'https://frikigift.netlify.app/',
-  },
-  {
-    title: 'Rick and Morty Web App',
-    img: '/rick.jpg',
-    description:
-      'Using the Rick and Morty API, i desing and developed this SPA with React.',
-    tech: 'React, HTML5, CSS3, Javascript',
-    link: 'https://rickandmorty-reactapi.netlify.app/',
   },
   {
     title: 'Color Flipper - WebApp',
