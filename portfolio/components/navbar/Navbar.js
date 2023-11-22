@@ -3,10 +3,12 @@ import './Navbar.css';
 const Navbar = () => {
   const header = document.createElement('header');
   header.innerHTML = `
-  <div class="logo">
-      <img src="/favico.png" alt="logo Paula Colombo">
-      <h2>Paula Colombo</h2>
-    </div>
+  <div class="logoContainer">
+  <a href="#home" class="logo" id="home">
+  <img src="/favico.png" alt="logo Paula Colombo">
+  <h2>Paula Colombo</h2>
+</a>
+      </div>
    
     <nav>
       <input class="hamburguer" type="checkbox" id="menu">

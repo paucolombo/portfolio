@@ -9,6 +9,7 @@ Navbar();
 Main();
 About();
 Footer();
+
 //creo los listeners para cargar las distintas secciones
 const main = document.querySelector('main');
 const about = document.getElementById('about');
@@ -18,13 +19,17 @@ const projects = document.getElementById('projects');
 projects.addEventListener('click', changeSection);
 const experience = document.getElementById('experience');
 experience.addEventListener('click', changeSection);
+const home = document.getElementById('home');
+home.addEventListener('click', changeSection);
 
 function changeSection(event) {
   about.classList.remove('activeSection');
   projects.classList.remove('activeSection');
   experience.classList.remove('activeSection');
-  switch (event.target.id) {
+
+  switch (this.id) {
     case 'about':
+    case 'home':
       About();
       about.classList.add('activeSection');
       break;

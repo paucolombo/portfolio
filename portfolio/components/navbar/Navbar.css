@@ -15,10 +15,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: left;
-  padding-left: 1%;
   gap: 5px;
 }
-
+.logoContainer {
+  width: 230px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
 .logo img {
   width: 50px;
 }
@@ -60,7 +63,7 @@ nav a {
   .hamburguer {
     display: block;
     position: fixed;
-    right: 1%;
+    right: 10px;
     z-index: 99999999999;
   }
 
