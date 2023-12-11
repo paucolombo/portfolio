@@ -54,6 +54,14 @@ export const projects = [
     link: 'https://pokedex-pau.netlify.app/',
   },
   {
+    title: 'Weather4kids',
+    img: '/weather4kids.jpg',
+    description:
+      'Using the openweathermap API, i desing and developed this weather app for kids with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://weather4kids.netlify.app/',
+  },
+  {
     title: 'Rick and Morty Web App',
     img: '/rick.jpg',
     description:
