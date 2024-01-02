@@ -62,12 +62,12 @@ export const projects = [
     link: 'https://weather4kids.netlify.app/',
   },
   {
-    title: 'Rick and Morty Web App',
-    img: '/rick.jpg',
+    title: 'Game of Thrones Web App',
+    img: '/got.jpg',
     description:
-      'Using the Rick and Morty API, i desing and developed this SPA with React.',
-    tech: 'React, HTML5, CSS3, Javascript',
-    link: 'https://rickandmorty-reactapi.netlify.app/',
+      'Using the Game of Thrones Characters API, i desing and developed this SPA with Javascript.',
+    tech: 'HTML5, CSS3, Javascript',
+    link: 'https://got-characters-js.netlify.app/',
   },
   {
     title: 'FrikiGift Store',
@@ -75,6 +75,14 @@ export const projects = [
     description: 'Desing and Development of the dynamic store of FrikiGitf',
     tech: 'HTML5, CSS3, Javascript',
     link: 'https://frikigift-store.netlify.app/',
+  },
+  {
+    title: 'Rick and Morty Web App',
+    img: '/rick.jpg',
+    description:
+      'Using the Rick and Morty API, i desing and developed this SPA with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://rickandmorty-reactapi.netlify.app/',
   },
   {
     title: 'Abilitycontrol Web',
