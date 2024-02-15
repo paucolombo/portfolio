@@ -1,0 +1,64 @@
+.about {
+  margin-top: 2%;
+  padding: 2%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  animation: fadeInAnimation ease-in 1s;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  flex-wrap: wrap;
+}
+
+.skillList {
+  width: 70vw;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 8px;
+}
+.skillList li {
+  color: #fffffe;
+  border-radius: 5px;
+  background-color: var(--color-bg-secondary);
+  padding: 4%;
+  list-style: inside;
+  list-style-image: url('/marca-de-verificacion.png');
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.avatar {
+  width: 260px;
+}
+.info {
+  max-width: 45vw;
+  min-width: 350px;
+  padding-top: 3%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+@media (max-width: 767px) {
+  .skillList {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+  }
+}

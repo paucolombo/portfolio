@@ -1,0 +1,58 @@
+:root {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --color-bg: #242629;
+  --color-bg-secondary: #6457a688;
+  --color-links: #9d88dc;
+  --color-bg-experience: #dbdbdbfe;
+  color: #f7f7f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  overflow-x: hidden;
+  background-color: var(--color-bg);
+}
+h2 {
+  font-size: 1.3em;
+}
+h3,
+h2 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 1.8em;
+}
+a {
+  color: #f7f7f7;
+}
+a:hover {
+  color: var(--color-links);
+}
+main {
+  flex: 1;
+}
+.activeSection {
+  color: var(--color-links);
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
