@@ -38,6 +38,14 @@ export const skills = [
 
 export const projects = [
   {
+    title: 'Weather4kids',
+    img: '/weather4kids.jpg',
+    description:
+      'Using the openweathermap API, i desing and developed this weather app for kids with React.',
+    tech: 'React, HTML5, CSS3, Javascript',
+    link: 'https://weather4kids.netlify.app/',
+  },
+  {
     title: 'Astronomic Project Web App',
     img: '/nasa.jpg',
     description:
@@ -46,20 +54,20 @@ export const projects = [
     link: 'https://astronomic-project.netlify.app/',
   },
   {
+    title: 'My Anime List',
+    img: '/myanimelist.jpg',
+    description:
+      'Development of the backend and frontend using Node.js, Express, MongoDB adn Javascript',
+    tech: 'Node.js, MongoDB, Express, HTML5, CSS3, Javascript',
+    link: 'https://anime-list-pau.vercel.app/',
+  },
+  {
     title: 'Pokedex Web App',
     img: '/pokemon.jpg',
     description:
       'Using the PokeAPI, i desing and developed this Pokedex with React.',
     tech: 'React, HTML5, CSS3, Javascript',
     link: 'https://pokedex-pau.netlify.app/',
-  },
-  {
-    title: 'Weather4kids',
-    img: '/weather4kids.jpg',
-    description:
-      'Using the openweathermap API, i desing and developed this weather app for kids with React.',
-    tech: 'React, HTML5, CSS3, Javascript',
-    link: 'https://weather4kids.netlify.app/',
   },
   {
     title: 'Game of Thrones Web App',
@@ -99,18 +107,18 @@ export const projects = [
     link: 'https://www.ingridpaul.art/',
   },
   {
+    title: 'Calculator - WebApp',
+    img: '/calculator.jpg',
+    description: 'Calculator developed using react',
+    tech: 'HTML5, CSS3, React',
+    link: 'https://react-calculator-pau.netlify.app',
+  },
+  {
     title: 'FrikiGift Landing',
     img: '/frikilanding.jpg',
     description: 'Desing and Development of the landing page FrikiGift',
     tech: 'HTML5, CSS3, Photoshop',
     link: 'https://frikigift.netlify.app/',
-  },
-  {
-    title: 'Color Flipper - WebApp',
-    img: '/colorflipper.jpg',
-    description: 'Web app to change the background color with javascript',
-    tech: 'HTML5, CSS3, Javascript',
-    link: 'https://pau-color-flipper.netlify.app/',
   },
   {
     title: 'Password-Length-Test WebApp',
