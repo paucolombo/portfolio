@@ -57,7 +57,7 @@ export const projects = [
     title: 'My Anime List',
     img: '/myanimelist.jpg',
     description:
-      'Development of the backend and frontend using Node.js, Express, MongoDB adn Javascript',
+      'Development of the backend and frontend to create a list of my favourites animes',
     tech: 'Node.js, MongoDB, Express, HTML5, CSS3, Javascript',
     link: 'https://anime-list-pau.vercel.app/',
   },
