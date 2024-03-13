@@ -115,18 +115,18 @@ export const projects = [
     link: 'https://react-form-background-effect.netlify.app/',
   },
   {
-    title: 'Calculator - WebApp',
-    img: '/calculator.jpg',
-    description: 'Calculator developed using React with custom hooks.',
-    tech: 'HTML5, CSS3, React',
-    link: 'https://react-calculator-pau.netlify.app',
-  },
-  {
     title: 'FrikiGift Landing',
     img: '/frikilanding.jpg',
     description: 'Desing and Development of the landing page FrikiGift',
     tech: 'HTML5, CSS3, Photoshop',
     link: 'https://frikigift.netlify.app/',
+  },
+  {
+    title: 'Calculator - WebApp',
+    img: '/calculator.jpg',
+    description: 'Calculator developed using React with custom hooks.',
+    tech: 'HTML5, CSS3, React',
+    link: 'https://react-calculator-pau.netlify.app',
   },
 ];
 
