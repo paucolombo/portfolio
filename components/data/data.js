@@ -70,19 +70,19 @@ export const projects = [
     link: 'https://pokedex-pau.netlify.app/',
   },
   {
+    title: 'FrikiGift Store',
+    img: '/frikistore.jpg',
+    description: 'Desing and Development of the dynamic store of FrikiGitf',
+    tech: 'HTML5, CSS3, Javascript',
+    link: 'https://frikigift-store.netlify.app/',
+  },
+  {
     title: 'Game of Thrones Web App',
     img: '/got.jpg',
     description:
       'Using the Game of Thrones Characters API, i desing and developed this SPA with Javascript.',
     tech: 'HTML5, CSS3, Javascript',
     link: 'https://got-characters-js.netlify.app/',
-  },
-  {
-    title: 'FrikiGift Store',
-    img: '/frikistore.jpg',
-    description: 'Desing and Development of the dynamic store of FrikiGitf',
-    tech: 'HTML5, CSS3, Javascript',
-    link: 'https://frikigift-store.netlify.app/',
   },
   {
     title: 'Rick and Morty Web App',
@@ -107,6 +107,14 @@ export const projects = [
     link: 'https://www.ingridpaul.art/',
   },
   {
+    title: 'React Form with Background Effect',
+    img: '/password.jpg',
+    description:
+      'Form made with React Hook Form that test the lenght of the password by changing the blur of the background ',
+    tech: 'HTML5, CSS3, Javascript, React',
+    link: 'https://pass-test.netlify.app/',
+  },
+  {
     title: 'Calculator - WebApp',
     img: '/calculator.jpg',
     description: 'Calculator developed using react',
@@ -119,14 +127,6 @@ export const projects = [
     description: 'Desing and Development of the landing page FrikiGift',
     tech: 'HTML5, CSS3, Photoshop',
     link: 'https://frikigift.netlify.app/',
-  },
-  {
-    title: 'Password-Length-Test WebApp',
-    img: '/password.jpg',
-    description:
-      'Web app that test the lenght of the password by changing the blur of the background ',
-    tech: 'HTML5, CSS3, Javascript',
-    link: 'https://pass-test.netlify.app/',
   },
 ];
 
