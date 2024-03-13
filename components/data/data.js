@@ -112,12 +112,12 @@ export const projects = [
     description:
       'Form made with React Hook Form that test the lenght of the password by changing the blur of the background ',
     tech: 'HTML5, CSS3, Javascript, React',
-    link: 'https://pass-test.netlify.app/',
+    link: 'https://react-form-background-effect.netlify.app/',
   },
   {
     title: 'Calculator - WebApp',
     img: '/calculator.jpg',
-    description: 'Calculator developed using react',
+    description: 'Calculator developed using React with custom hooks.',
     tech: 'HTML5, CSS3, React',
     link: 'https://react-calculator-pau.netlify.app',
   },
