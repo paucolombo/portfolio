@@ -34,6 +34,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 8px;
+  justify-content:center;
 }
 .skillList li {
   color: #fffffe;

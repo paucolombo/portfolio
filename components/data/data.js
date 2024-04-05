@@ -24,7 +24,9 @@ export const links = [
 export const skills = [
   'HTML5',
   'CSS3',
+  'SASS',
   'Javascript',
+  'Typescript',
   'React',
   'Bootstrap',
   'Wordpress',
@@ -33,6 +35,7 @@ export const skills = [
   'Github',
   'SCRUM',
   'Node JS',
+  'MongoDB',
   'English/Spanish',
 ];
 
@@ -132,6 +135,13 @@ export const projects = [
 
 export const companies = [
   {
+    name: 'Pasiona',
+    image: '/pasiona.png',
+    link: 'https://pasiona.com/',
+    position: 'Tech Developer Junior',
+    dates: '2024',
+  },
+  {
     name: 'PIBA',
     image: '/piba.png',
     link: 'https://piba.es/',
@@ -142,16 +152,8 @@ export const companies = [
     name: 'CUOMA',
     image: '/cuoma.png',
     link: 'https://www.cuoma.com/',
-    position: 'Maquetador Web',
+    position: 'Web Developer',
     dates: '2018-2020',
-  },
-
-  {
-    name: 'El Pixel',
-    image: '/elpixel.png',
-    link: 'https://www.elpixel.com/',
-    position: 'Maquetador Web',
-    dates: '2015-2017',
   },
 
   {
